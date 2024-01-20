@@ -22,7 +22,7 @@
   <!--[![Backers on Open Collective](https://opencollective.com/nest/backers/badge.svg)](https://opencollective.com/nest#backer)
   [![Sponsors on Open Collective](https://opencollective.com/nest/sponsors/badge.svg)](https://opencollective.com/nest#sponsor)-->
 
-## Description
+## Descrição
 
 Este repositório tem cunho didático. 
 No formato Storytelling, os comentários no código, procurei deixar mais natural possível a construção de uma aplicação utilizando o NestJS. 
