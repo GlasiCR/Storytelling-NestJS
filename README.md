@@ -24,15 +24,41 @@
 
 ## Description
 
-[Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
+Este repositório tem cunho didático. 
+No formato Storytelling, os comentários no código, procurei deixar mais natural possível a construção de uma aplicação utilizando o NestJS. 
 
-## Installation
+Neste documento você vai encontrar:
+- Configuração no módulo principal;
+src\main.ts
+- Configuração do Banco de Dados;
+src\database
+- Relacionamento entre Entidades;
+src\database\entities\users.entity.ts
+- Autenticação e Autorização de usuário;
+src\app\auth
+- Guards (pra autenticação e perfil de acesso);
+src\app\auth\guards
+src\app\houses\houses.controller.ts
+- Teste unitário;
+src\app\users\users.controller.spec.ts
+src\app\users\users.service.spec.ts
+- Documentação da API no Swagger.
+src\app\auth\auth.controller.ts
+
+
+## Instalação
 
 ```bash
 $ npm install
+$ npm i --save @nestjs/config
+$ npm i –save @nestjs/swagger
+$ npm install --save @nestjs/typeorm typeorm pg
+$ npm i –save-dev @types/bcrypt
+$ npm install --save class-validator class-transformer
+$ npm install –save@nestjs/jwt
 ```
 
-## Running the app
+## Rodar aplicação
 
 ```bash
 # development
@@ -40,33 +66,15 @@ $ npm run start
 
 # watch mode
 $ npm run start:dev
-
-# production mode
-$ npm run start:prod
 ```
 
-## Test
+## Executar teste
 
 ```bash
 # unit tests
 $ npm run test
 
-# e2e tests
-$ npm run test:e2e
-
-# test coverage
-$ npm run test:cov
 ```
-
-## Support
-
-Nest is an MIT-licensed open source project. It can grow thanks to the sponsors and support by the amazing backers. If you'd like to join them, please [read more here](https://docs.nestjs.com/support).
-
-## Stay in touch
-
-- Author - [Kamil Myśliwiec](https://kamilmysliwiec.com)
-- Website - [https://nestjs.com](https://nestjs.com/)
-- Twitter - [@nestframework](https://twitter.com/nestframework)
 
 ## License
 
