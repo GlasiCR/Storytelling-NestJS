@@ -30,19 +30,19 @@ No formato Storytelling, os comentários no código, procurei deixar mais natura
 Neste documento você vai encontrar:
 - Configuração no módulo principal; <br>
 src\main.ts
-- Configuração do Banco de Dados; 
+- Configuração do Banco de Dados; <br>
 src\database
-- Relacionamento entre Entidades;
+- Relacionamento entre Entidades;<br>
 src\database\entities\users.entity.ts
-- Autenticação e Autorização de usuário;
+- Autenticação e Autorização de usuário;<br>
 src\app\auth
-- Guards (pra autenticação e perfil de acesso);
+- Guards (pra autenticação e perfil de acesso);<br>
 src\app\auth\guards
 src\app\houses\houses.controller.ts
-- Teste unitário;
+- Teste unitário;<br>
 src\app\users\users.controller.spec.ts
 src\app\users\users.service.spec.ts
-- Documentação da API no Swagger.
+- Documentação da API no Swagger.<br>
 src\app\auth\auth.controller.ts
 
 
