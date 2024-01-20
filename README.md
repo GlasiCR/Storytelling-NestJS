@@ -28,7 +28,7 @@ Este repositório tem cunho didático.
 No formato Storytelling, os comentários no código, procurei deixar mais natural possível a construção de uma aplicação utilizando o NestJS. 
 
 Neste documento você vai encontrar:
-- Configuração no módulo principal; <b>
+- Configuração no módulo principal; <br>
 src\main.ts
 - Configuração do Banco de Dados; 
 src\database
