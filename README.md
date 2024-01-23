@@ -49,7 +49,7 @@ src\app\auth\auth.controller.ts
 ```bash
 $ npm install
 $ npm i --save @nestjs/config
-$ npm i –save @nestjs/swagger
+$ npm install --save @nestjs/swagger
 $ npm install --save @nestjs/typeorm typeorm pg
 $ npm i –save-dev @types/bcrypt
 $ npm install --save class-validator class-transformer
