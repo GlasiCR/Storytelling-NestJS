@@ -51,7 +51,7 @@ $ npm install
 $ npm i --save @nestjs/config
 $ npm install --save @nestjs/swagger
 $ npm install --save @nestjs/typeorm typeorm pg
-$ npm i –save-dev @types/bcrypt
+$ npm i bcrypt
 $ npm install --save class-validator class-transformer
 $ npm install –save@nestjs/jwt
 ```
